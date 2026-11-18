@@ -1,0 +1,23 @@
+cliff_detector:
+  ros__parameters:
+    sample_rate_hz: 5.0
+    mux_address: 112
+    clear_samples: 3
+    front_left.channel: 0
+    front_left.mean_mm: 56.8
+    front_left.stddev_mm: 1.66
+    front_centre.channel: 1
+    front_centre.mean_mm: 37.4
+    front_centre.stddev_mm: 3.51
+    front_right.channel: 2
+    front_right.mean_mm: 36.7
+    front_right.stddev_mm: 1.99
+    rear_left.channel: 3
+    rear_left.mean_mm: 46.5
+    rear_left.stddev_mm: 3.06
+    rear_centre.channel: 4
+    rear_centre.mean_mm: 91.5
+    rear_centre.stddev_mm: 2.17
+    rear_right.channel: 5
+    rear_right.mean_mm: 48.6
+    rear_right.stddev_mm: 2.20
